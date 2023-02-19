@@ -1,3 +1,4 @@
+import json
 import sys
 
 from sabolyman_parser import SabolymanVisualizer
@@ -29,12 +30,18 @@ if __name__ == '__main__':
         if (type(configure_dynamically) == str) and ('false' in configure_dynamically.lower()):
             configure_dynamically = False
 
+        try:
+            print('color option passed ', sys.argv[5])
+            color_options = json.loads(sys.argv[5])
+        except IndexError:
+            color_options = {}
+
         parser = SabolymanVisualizer(pickle_path, target_card_id, )
         kwargs = {
             'folder_path': folder_path,
             'configure_dynamically': configure_dynamically,
         }
-
+        kwargs.update(color_options)
         parser.save_as_html(**kwargs)
         parser.open_html_in_browser()
 
