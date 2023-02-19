@@ -3,7 +3,7 @@ import unittest
 
 class MyTestCase(unittest.TestCase):
     def test_something(self):
-        from sabolyman_parser.sabolyman_visualizer import SabolymanVisualizer
+        from sabolyman_parser import SabolymanVisualizer
 
         file = '/Users/yamaka/Documents/Sabolyman/Taro Yamaka/chart_test.sb'
         # file = '/Users/yamaka/Documents/Sabolyman/Taro Yamaka/save.sb'
