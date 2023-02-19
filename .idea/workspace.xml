@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6fd5f4db-8ee9-44a0-94da-757fe2b6884c" name="Changes" comment="" />
+    <list default="true" id="6fd5f4db-8ee9-44a0-94da-757fe2b6884c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sabolyman_parser/sabolyman_visualizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabolyman_parser/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/sabolyman_parser/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_igraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_igraph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_pyvis.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_pyvis.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +29,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LmdRayPHuDIq2mDhTaJqo1aHnD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -30,28 +37,29 @@
     <option name="showLibraryContents" value="true" />
     <option name="sortByType" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yamaka/Documents/GitHub/SabolymanParser&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/yamaka/Documents/GitHub/SabolymanParser",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/sabolyman_parser" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_igraph.MyTestCase.test_something">
+  <component name="RunManager" selected="Python tests.Python tests for test_pyvis.MyTestCase.test_visualize_sabolyman_from_pickle">
     <configuration name="Python tests for test_igraph.MyTestCase.test_something" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="SabolymanParser" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,8 +152,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_igraph.MyTestCase.test_something" />
         <item itemvalue="Python tests.Python tests for test_pyvis.MyTestCase.test_visualize_sabolyman_from_pickle" />
+        <item itemvalue="Python tests.Python tests for test_igraph.MyTestCase.test_something" />
         <item itemvalue="Python tests.Python tests for tests.test_pyvis.MyTestCase.test_visualize_sabolyman_from_pickle" />
         <item itemvalue="Python tests.Python tests for tests.test_pyvis.MyTestCase" />
         <item itemvalue="Python tests.Python tests for tests.test_igraph.MyTestCase.test_something" />
@@ -167,6 +175,7 @@
       <workItem from="1676804289703" duration="22000" />
       <workItem from="1676804314120" duration="129000" />
       <workItem from="1676804455641" duration="206000" />
+      <workItem from="1676804664690" duration="299000" />
     </task>
     <servers />
   </component>
@@ -184,7 +193,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SandBoxPython$tests.coverage" NAME="tests Coverage Results" MODIFIED="1676480236643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/SabolymanParser$.coverage" NAME=" Coverage Results" MODIFIED="1676803976703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/SabolymanParser$.coverage" NAME=" Coverage Results" MODIFIED="1676804962351" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/SandBoxPython$.coverage" NAME=" Coverage Results" MODIFIED="1676803339681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

@@ -88,7 +88,7 @@ class MyTestCase(unittest.TestCase):
         nt.show(html_file_name)
 
     def test_visualize_sabolyman_from_pickle_step_by_step(self):
-        from sabolyman_parser import SabolymanVisualizer
+        from sabolyman_parser.sabolyman_visualizer import SabolymanVisualizer
         import datetime
 
         file = '/Users/yamaka/Documents/Sabolyman/Taro Yamaka/chart_test.sb'
@@ -105,7 +105,7 @@ class MyTestCase(unittest.TestCase):
             parser.save_as_html(cutoff_date=cutoff_date, i=i)
 
     def test_visualize_sabolyman_from_pickle(self):
-        from sabolyman_parser import SabolymanVisualizer
+        from sabolyman_parser.sabolyman_visualizer import SabolymanVisualizer
 
         pickle_path = '/Users/yamaka/Documents/Sabolyman/Taro Yamaka/chart_test.sb'
         target_card_id = '0793e348-51e4-434d-865c-3d96a2c1a792'
