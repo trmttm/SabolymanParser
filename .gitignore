@@ -1,0 +1,12 @@
+
+*.pyc
+sabolyman_parser/__pycache__/identify_html_file_name.cpython-310.pyc
+sabolyman_parser/identify_html_file_name.py
+sabolyman_parser/lib/bindings/utils.js
+sabolyman_parser/lib/tom-select/tom-select.complete.min.js
+sabolyman_parser/lib/tom-select/tom-select.css
+sabolyman_parser/lib/vis-9.0.4/vis-network.css
+sabolyman_parser/lib/vis-9.0.4/vis-network.min.js
+sabolyman_parser/lib/vis-9.1.2/vis-network.css
+sabolyman_parser/lib/vis-9.1.2/vis-network.min.js
+*.pyc

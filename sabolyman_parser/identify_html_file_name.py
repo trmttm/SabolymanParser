@@ -1,5 +1,7 @@
+import os
+
+
 def execute(kwargs):
-    import os
     i = kwargs.get('i', None)
     folder_path = kwargs.get('folder_path', '')
     file_name = f'nx_{i}.html' if i is not None else f'nx.html'
