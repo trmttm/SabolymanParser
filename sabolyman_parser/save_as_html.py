@@ -36,36 +36,26 @@ def execute(data, **kwargs):
         'cubicBezier',  # 9
     ]
     nt.set_edge_smooth(edge_options[2])
-    options = """
-const options = {
-  "physics": {
-    "barnesHut": {
-      "centralGravity": 0,
-      "springLength": 130,
-      "springConstant": 0.15,
-      "avoidOverlap": 0.50
-    },
-  w "minVelocity": 0.75,
-    "wind": {
-      "x": -0.2,
-      "y": -0.3
-    }
-  }
-}                
-"""
-    hierarchical = """
-    const options = {
+    hierarchical = """const options = {
   "layout": {
     "hierarchical": {
       "enabled": true,
-      "levelSeparation": 175,
-      "nodeSpacing": 20,
+      "levelSeparation": 280,
+      "nodeSpacing": 1,
       "direction": "LR",
       "sortMethod": "directed"
     }
+  },
+  "physics": {
+    "enabled": true,
+    "hierarchicalRepulsion": {
+      "centralGravity": 0,
+      "avoidOverlap": null
+    },
+    "minVelocity": 0.75,
+    "solver": "hierarchicalRepulsion"
   }
-}
-"""
+}"""
     options = hierarchical
     if not configure_dynamically:
         nt.set_options(options)

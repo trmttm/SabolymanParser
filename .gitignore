@@ -10,3 +10,6 @@ sabolyman_parser/lib/vis-9.0.4/vis-network.min.js
 sabolyman_parser/lib/vis-9.1.2/vis-network.css
 sabolyman_parser/lib/vis-9.1.2/vis-network.min.js
 *.pyc
+*.xml
+*.iml
+*.pyc

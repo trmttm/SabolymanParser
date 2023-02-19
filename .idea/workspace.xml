@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fd5f4db-8ee9-44a0-94da-757fe2b6884c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SabolymanParser.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SabolymanParser.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sabolyman_parser/identify_html_file_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/sabolyman_parser/identify_html_file_name.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sabolyman_parser/save_as_html.py" beforeDir="false" afterPath="$PROJECT_DIR$/sabolyman_parser/save_as_html.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,7 @@
       <workItem from="1676804289703" duration="22000" />
       <workItem from="1676804314120" duration="129000" />
       <workItem from="1676804455641" duration="206000" />
-      <workItem from="1676804664690" duration="4966000" />
+      <workItem from="1676804664690" duration="6069000" />
     </task>
     <servers />
   </component>
@@ -206,7 +206,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SandBoxPython$tests.coverage" NAME="tests Coverage Results" MODIFIED="1676480236643" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/SabolymanParser$main.coverage" NAME="main Coverage Results" MODIFIED="1676807825651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sabolyman_parser" />
+    <SUITE FILE_PATH="coverage/SabolymanParser$main.coverage" NAME="main Coverage Results" MODIFIED="1676814699815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/sabolyman_parser" />
     <SUITE FILE_PATH="coverage/SabolymanParser$.coverage" NAME=" Coverage Results" MODIFIED="1676805058660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/SandBoxPython$.coverage" NAME=" Coverage Results" MODIFIED="1676803339681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
