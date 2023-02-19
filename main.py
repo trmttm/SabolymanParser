@@ -22,7 +22,12 @@ if __name__ == '__main__':
         except IndexError:
             folder_path = ''
 
-        configure_dynamically = False
+        try:
+            configure_dynamically = sys.argv[4]
+        except IndexError:
+            configure_dynamically = True
+        if (type(configure_dynamically) == str) and ('false' in configure_dynamically.lower()):
+            configure_dynamically = False
 
         parser = SabolymanVisualizer(pickle_path, target_card_id, )
         kwargs = {
