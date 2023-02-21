@@ -19,9 +19,10 @@ def execute(data, **kwargs):
     color_edge_default = kwargs.get('color_edge_default', 'black')
     my_name = kwargs.get('my_name', 'Taro Yamaka')
     html_file_name = kwargs.get('html_file_name', f'nx.html')
+    screen_width = kwargs.get('screen_width', 800)
+    screen_height = kwargs.get('screen_height', 800)
+    print(f'{screen_width} x {screen_height}')
 
-    screen_width = 800
-    screen_height = 800
     nt = Network(f'{screen_height}px', f'{screen_width}px')
     edge_options = [
         'dynamic',  # 0

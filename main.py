@@ -31,7 +31,6 @@ if __name__ == '__main__':
             configure_dynamically = False
 
         try:
-            print('color option passed ', sys.argv[5])
             color_options = json.loads(sys.argv[5])
         except IndexError:
             color_options = {}
