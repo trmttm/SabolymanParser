@@ -31,7 +31,11 @@ if __name__ == '__main__':
             configure_dynamically = False
 
         try:
-            color_options = json.loads(sys.argv[5])
+            if sys.platform == "win32":
+                arg = sys.argv[5].replace(', ', '", "').replace(': ', '": "').replace('{', '{"').replace('}', '"}')
+            else:
+                arg = sys.argv[5]
+            color_options = json.loads(arg)
         except IndexError:
             color_options = {}
 
