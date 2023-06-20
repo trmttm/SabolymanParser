@@ -84,7 +84,7 @@ def execute(data, **kwargs):
     if configure_dynamically:
         nt.show_buttons(filter_=filter_option)
     try:
-        nt.show(html_file_name)
+        nt.show(html_file_name, notebook=False)
     except FileNotFoundError:
         # ignore
         pass
