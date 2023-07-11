@@ -1,0 +1,15 @@
+setup.py
+SabolymanParser.egg-info/PKG-INFO
+SabolymanParser.egg-info/SOURCES.txt
+SabolymanParser.egg-info/dependency_links.txt
+SabolymanParser.egg-info/top_level.txt
+sabolyman_parser/__init__.py
+sabolyman_parser/identify_html_file_name.py
+sabolyman_parser/implementation.py
+sabolyman_parser/open_file_by_browser.py
+sabolyman_parser/open_html_in_webbrowser.py
+sabolyman_parser/sabolyman_visualizer.py
+sabolyman_parser/save_as_html.py
+tests/__init__.py
+tests/test_igraph.py
+tests/test_pyvis.py
